@@ -15,7 +15,7 @@ const foodItems = [
 
 const cart = [];
 const deliveryCharge = 30;
-const gstPercentage = 18;
+const gstPercentage = 18.0;
 
 const container = document.getElementById("food-list");
 const cartContainer = document.getElementById("cart-container");
