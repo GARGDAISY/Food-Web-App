@@ -1,17 +1,18 @@
 const foodItems = [
     { name: "Veg Biryani", description: "Spiced rice and vegetables with curd.", price: 100, image: "https://images.pexels.com/photos/15059056/pexels-photo-15059056/free-photo-of-a-bowl-of-rice-with-vegetables-and-sauce.jpeg?auto=compress&cs=tinysrgb&w=600" },
     { name: "Masala Dosa", description: "Crispy dosa with chutney and sambar.", price: 80, image: "https://images.pexels.com/photos/20422133/pexels-photo-20422133/free-photo-of-triangular-bread-on-plate.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Chole Bhature", description: "Spicy chickpeas,salad and fresh bhature.", price: 120, image: "https://media.istockphoto.com/id/873539518/photo/deep-fried-bread-spicy-chickpeas-curry-and-salad.jpg" },
+    { name: "Chole Bhature", description: "Spicy chickpeas, salad and fresh bhature.", price: 120, image: "https://media.istockphoto.com/id/979914742/photo/chole-bhature-or-chick-pea-curry-and-fried-puri-served-in-terracotta-crockery-over-white.jpg?s=2048x2048&w=is&k=20&c=zhmGombUCMWWkdI2COP1vh1bDma-3wS_FOv4GmHE41s=" }, 
     { name: "Veg Pizza", description: "Cheese and fresh veggies loaded pizza.", price: 160, image: "https://images.pexels.com/photos/5175513/pexels-photo-5175513.jpeg?auto=compress&cs=tinysrgb&w=600" },
     { name: "Idli Sambar", description: "Soft idli with hot sambar and chutney.", price: 60, image: "https://images.pexels.com/photos/31199041/pexels-photo-31199041/free-photo-of-traditional-south-indian-idli-with-sambar-and-chutney.jpeg?auto=compress&cs=tinysrgb&w=600" },
     { name: "Rajma Chawal", description: "Kidney beans curry with rice and salad.", price: 100, image: "https://images.pexels.com/photos/12737912/pexels-photo-12737912.jpeg?auto=compress&cs=tinysrgb&w=600" },
     { name: "Spring Rolls", description: "Crispy vegetable spring rolls with ketchup.", price: 60, image: "https://images.pexels.com/photos/3569706/pexels-photo-3569706.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Pakoda", description: "Crispy and crunchy vegetable pakodas with chutney.", price: 70, image: "https://media.istockphoto.com/id/177314242/photo/vegetable-pakora.jpg" },
+    { name: "Pakoda", description: "Crispy and crunchy vegetable pakodas with chutney.", price: 70, image: "https://media.istockphoto.com/id/540851506/photo/onion-bhaji-or-pakora-served-with-tomato-ketchup-and-tea.jpg?s=2048x2048&w=is&k=20&c=E2KpeTzYxgrJ27WvxZHPHNn6PQ0v_XuIjPt_7gS2TiY=" }, 
     { name: "Veg Burger", description: "Fresh lettuce and veggie patty burger with ketchup. ", price: 90, image: "https://images.pexels.com/photos/19737930/pexels-photo-19737930/free-photo-of-close-up-of-burgers-standing-on-boxes.jpeg?auto=compress&cs=tinysrgb&w=600" },
     { name: "Momos", description: "Steamed dumplings filled with vegetables with chutney.", price: 85, image: "https://cdn.pixabay.com/photo/2020/09/21/12/40/meal-5589923_1280.jpg" },
-    { name: "Aloo Tikki", description: "Crispy potato patties served with chutneys.", price: 60, image: "https://media.istockphoto.com/id/1355508152/photo/aloo-tikki-chole-chaat.jpg" },
+    { name: "Aloo Tikki", description: "Crispy potato patties served with chutneys.", price: 60, image: "https://media.istockphoto.com/id/1355508124/photo/aloo-tikki-chole-chaat.jpg?s=1024x1024&w=is&k=20&c=g1UC72mHTPqhkAKZqkknzRA-pxgZat-n3y-Nb7u5x-Q=" }, 
     { name: "Cold Drink", description: "Chilled refreshing soft drink.(Coca Cola)", price: 30, image: "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=600" }
-];
+  ];
+  
 
 const cart = [];
 const deliveryCharge = 30;
