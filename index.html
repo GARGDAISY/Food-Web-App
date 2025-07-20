@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pure Vegetarian Food</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Tummy Tales</h1>
+        <p>"Your hunger’s favorite hangout spot"</p>
+    </header>
+
+    <section id="food-list" class="food-container"></section>
+
+    <div class="cart-container" id="cart-container">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div class="total-bill" id="total-bill">Total: ₹0</div>
+
+        <div class="form-container">
+            <h3>Enter your details</h3>
+            <input type="text" id="name" placeholder="Enter your name" required />
+            <input type="text" id="phone" placeholder="Enter your phone number" required />
+            <textarea id="address" placeholder="Enter your address" required></textarea>
+
+            <label for="payment-mode">Select Payment Mode:</label>
+            <select id="payment-mode" required>
+                <option value="">--Choose--</option>
+                <option value="UPI">UPI</option>
+                <option value="Card">Card</option>
+                <option value="Cash on Delivery">Cash on Delivery</option>
+            </select>
+            <p></p>
+
+            <button onclick="placeOrder()">Place Order</button><br/>
+            <p></p>
+            <button onclick="makePayment()">Pay Now</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
